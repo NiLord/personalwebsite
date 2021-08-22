@@ -8,3 +8,4 @@ services:
     volumes:
       - './config/nginx:/etc/nginx/conf.d'
       - './certs/:/certs/'
+      - './website/:/etc/nginx/html'
